@@ -10,4 +10,13 @@
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="9.0.16" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Controllers\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\OrderManagementSystem.Domain\OrderManagementSystem.Domain.csproj" />
+    <ProjectReference Include="..\OrderManagementSystem.Infrastructure\OrderManagementSystem.Infrastructure.csproj" />
+  </ItemGroup>
+
 </Project>
