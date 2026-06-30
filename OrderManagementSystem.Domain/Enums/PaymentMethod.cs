@@ -8,6 +8,7 @@ namespace OrderManagementSystem.Domain.Enums
 {
     public enum PaymentMethod
     {
-
+        Cash,
+        CreditCard 
     }
 }
